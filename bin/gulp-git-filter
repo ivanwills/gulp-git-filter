@@ -1,0 +1,4 @@
+/* global require, process */
+
+var gulp-git-filter = require('gulp-git-filter');
+

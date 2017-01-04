@@ -1,0 +1,38 @@
+{
+    "author"     : "Ivan Wills <ivan.wills@gmail.com>",
+    "name"       : "gulp-git-filter",
+    "description": "",
+    "version"    : "0.0.1",
+    "license"    : "GPL-3.0+",
+    "keywords"   : [""],
+    "bin"        : {},
+    "man"        : {},
+    "main"       : "index.js",
+    "repository" : {
+        "type": "git",
+        "url" : "git://github.com/ivanwills/gulp-git-filter.git"
+    },
+    "bugs":  "https://github.com/ivanwills/gulp-git-filter/issues",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "assert"        : "*",
+        "node-getopt-long": "*",
+        "gulp"          : "*",
+        "gulp-istanbul" : "*",
+        "gulp-jshint"   : "*",
+        "gulp-mocha"    : "*",
+        "gulp-util"     : "*"
+    },
+    "optionalDependencies": {},
+    "preferGlobal": "true",
+    "directories": {
+        "bin": "./bin"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
