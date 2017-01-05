@@ -1,3 +1,23 @@
 node_modules/*
 coverage/
 .sonar
+
+# Created by https://www.gitignore.io/api/npm,vim
+
+#!! ERROR: npm is undefined. Use list command to see defined gitignore types !!#
+
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# End of https://www.gitignore.io/api/npm,vim
