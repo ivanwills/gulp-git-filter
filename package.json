@@ -1,38 +1,43 @@
 {
-    "author"     : "Ivan Wills <ivan.wills@gmail.com>",
-    "name"       : "gulp-git-filter",
-    "description": "",
-    "version"    : "0.0.1",
-    "license"    : "GPL-3.0+",
-    "keywords"   : [""],
-    "bin"        : {},
-    "man"        : {},
-    "main"       : "index.js",
-    "repository" : {
-        "type": "git",
-        "url" : "git://github.com/ivanwills/gulp-git-filter.git"
-    },
-    "bugs":  "https://github.com/ivanwills/gulp-git-filter/issues",
-    "dependencies": {
-    },
-    "devDependencies": {
-        "assert"        : "*",
-        "node-getopt-long": "*",
-        "gulp"          : "*",
-        "gulp-istanbul" : "*",
-        "gulp-jshint"   : "*",
-        "gulp-mocha"    : "*",
-        "gulp-util"     : "*"
-    },
-    "optionalDependencies": {},
-    "preferGlobal": "true",
-    "directories": {
-        "bin": "./bin"
-    },
-    "scripts": {
-        "test": "gulp test"
-    },
-    "engines": {
-        "node": "*"
-    }
+  "author": "Ivan Wills <ivan.wills@gmail.com>",
+  "bin": {
+  },
+  "bugs": "https://github.com/ivanwills/gulp-git-filter/issues",
+  "dependencies": {
+  },
+  "description": "",
+  "devDependencies": {
+    "assert": "*",
+    "gulp": "*",
+    "gulp-istanbul": "*",
+    "gulp-jshint": "*",
+    "gulp-mocha": "*",
+    "gulp-util": "*",
+    "node-getopt-long": "*"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    ""
+  ],
+  "license": "GPL-3.0+",
+  "main": "index.js",
+  "man": {
+  },
+  "name": "gulp-git-filter",
+  "optionalDependencies": {
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivanwills/gulp-git-filter.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "0.0.1"
 }
